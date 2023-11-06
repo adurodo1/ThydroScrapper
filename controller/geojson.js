@@ -66,7 +66,7 @@ const geojsoncontrollerThydro = async (req, res) => {
                     "affectedCustomers": item.affectedCustomers,
                     "startTime": item.startTime,
                     "endTime": item.endTime,
-                    "duration": (item.duration / 60) + " " + "hours",
+                    "duration": (item.duration / 60).toString() + " " + "hours",
                 }
             }
 
