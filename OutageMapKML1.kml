@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>OutageMapKMLPROD_M1</name>
+<visibility>1</visibility>
+<Style id="Style1">
+<BalloonStyle>
+<text>
+<![CDATA[
+<p>$[STARTTIME]</p>
+<p>$[STATUS]</p>
+<p>$[ETOR]</p>
+<p>$[CUSTAFF]</p>
+<p>$[LASTUPDATE]</p>
+]]>
+</text>
+</BalloonStyle>
+<LineStyle>
+<color>ff000000</color>
+<width>1</width>
+</LineStyle>
+<PolyStyle>
+<color>cf008214</color>
+<fill>1</fill>
+</PolyStyle>
+</Style>
+<Style id="Style2">
+<BalloonStyle>
+<text>
+<![CDATA[
+<p>$[STARTTIME]</p>
+<p>$[STATUS]</p>
+<p>$[ETOR]</p>
+<p>$[CUSTAFF]</p>
+<p>$[LASTUPDATE]</p>
+]]>
+</text>
+</BalloonStyle>
+<LineStyle>
+<color>ff000000</color>
+<width>1</width>
+</LineStyle>
+<PolyStyle>
+<color>cf14f0ff</color>
+<fill>1</fill>
+</PolyStyle>
+</Style>
+<Style id="Style3">
+<BalloonStyle>
+<text>
+<![CDATA[
+<p>$[STARTTIME]</p>
+<p>$[STATUS]</p>
+<p>$[ETOR]</p>
+<p>$[CUSTAFF]</p>
+<p>$[LASTUPDATE]</p>
+]]>
+</text>
+</BalloonStyle>
+<LineStyle>
+<color>ff000000</color>
+<width>1</width>
+</LineStyle>
+<PolyStyle>
+<color>cf14b4ff</color>
+<fill>1</fill>
+</PolyStyle>
+</Style>
+<Style id="Style4">
+<BalloonStyle>
+<text>
+<![CDATA[
+<p>$[STARTTIME]</p>
+<p>$[STATUS]</p>
+<p>$[ETOR]</p>
+<p>$[CUSTAFF]</p>
+<p>$[LASTUPDATE]</p>
+]]>
+</text>
+</BalloonStyle>
+<LineStyle>
+<color>ff000000</color>
+<width>1</width>
+</LineStyle>
+<PolyStyle>
+<color>cfb40014</color>
+<fill>1</fill>
+</PolyStyle>
+</Style>
+<Style id="Style5">
+<BalloonStyle>
+<text>
+<![CDATA[
+<p>$[STARTTIME]</p>
+<p>$[STATUS]</p>
+<p>$[ETOR]</p>
+<p>$[CUSTAFF]</p>
+<p>$[LASTUPDATE]</p>
+]]>
+</text>
+</BalloonStyle>
+<LineStyle>
+<color>ff000000</color>
+<width>1</width>
+</LineStyle>
+<PolyStyle>
+<color>cf780078</color>
+<fill>1</fill>
+</PolyStyle>
+</Style>
+<Folder id="kml_ft_TH_NMS.V_OM_OUTAGE_EVENT_DETAIL">
+<name>TH_NMS.V_OM_OUTAGE_EVENT_DETAIL</name>
+<Placemark id="kml_1">
+<name>2022037119</name>
+<snippet> </snippet>
+<styleUrl>#Style1</styleUrl>
+<ExtendedData>
+<Data name="STARTTIME"><value>Nov. 24, 5:02 pm</value></Data>
+<Data name="ETOR"><value>Today, 2:14 pm</value></Data>
+<Data name="STATUS"><value>On site</value></Data>
+<Data name="CUSTAFF"><value>1 - 50</value></Data>
+<Data name="LASTUPDATE"><value>Today, 1:20 pm</value></Data>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-79.5372124065532,43.6288489168486,0.0 -79.5374006738282,43.6281599385749,0.0 -79.537937595336,43.6275757345404,0.0 -79.5387414247163,43.6271852404318,0.0 -79.5396897911278,43.6270479013723,0.0 -79.5406383262312,43.6271846243207,0.0 -79.5414426360198,43.627574596154,0.0 -79.5419802816308,43.6281584590456,0.0 -79.54216940044,43.6288473179493,0.0 -79.5419811866924,43.6295363013175,0.0 -79.5414442807207,43.6301205161169,0.0 -79.5406404287607,43.6305110289811,0.0 -79.5396920076782,43.6306483757357,0.0 -79.5387434178379,43.6305116449138,0.0 -79.5379390853107,43.6301216542508,0.0 -79.5374014673614,43.629537780372,0.0 -79.5372124065532,43.6288489168486,0.0</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Folder>
+</Document></kml>
