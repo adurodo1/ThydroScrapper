@@ -1,9 +1,9 @@
 
 var convert = require('xml-js');
 var path = require('path');
-var xml = require('fs').readFileSync(path.join(__dirname, "../OutageMapKML1.kml"), 'utf8');
+//var xml = require('fs').readFileSync(path.join(__dirname, "../OutageMapKML1.kml"), 'utf8');
 
-var json = require('fs').readFileSync(path.join(__dirname, "../test.json"), 'utf8');
+//var json = require('fs').readFileSync(path.join(__dirname, "../test.json"), 'utf8');
 
 const fetchURL = "https://www.torontohydro.com/construction-map?p_p_id=TH_projectmap&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=%2FgetProjectMapEntries&p_p_cacheability=cacheLevelPage"
 
